@@ -6,10 +6,9 @@ This project analyzes GitHub issues from the llama-stack repository, clusters th
 
 - Fetches all issues from the llama-stack repository using GitHub API
 - Multiple clustering approaches:
-  - **Keyword-based**: Traditional TF-IDF clustering with advanced text preprocessing
   - **Semantic**: Uses sentence transformers for semantic similarity clustering
   - **Llama Stack**: Leverages Llama Stack server for high-quality embeddings
-- Advanced clustering algorithms: K-means, Hierarchical, DBSCAN
+- Clustering algorithms: K-means, Hierarchical, DBSCAN
 - Generates comprehensive reports with interactive visualizations
 - Supports different clustering parameters and methods
 
