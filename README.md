@@ -49,6 +49,8 @@ ollama pull nomic-embed-text
 Then run the analyzer:
 ```bash
 python main.py --ollama
+Or
+python main.py --ollama --fresh-data
 ```
 
 Or with custom settings:
